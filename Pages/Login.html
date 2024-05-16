@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../Css/common_style.css">
+    <style>
+        .form_container {
+            background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+            /*background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);*/
+            width: 600px;
+            height: 600px;
+            margin-left: 200px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 2px 3px #c7c4bf;
+            padding: 10px;
+            
+        }
+
+        label,  input{
+            margin-left: 210px;
+        }
+
+        .login_btn{
+            margin-left: 250px;
+            border-radius: 15px;
+            background-color: rgb(40, 97, 2);
+            padding: 10px 30px;
+            box-shadow: 0px 0px 2px 2px #d4d1d1;
+            color: white;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="side_bar">
+            <a href="./../index.html" class="side_bar_items"> <img src="./../Images/house.png" alt="user_logo"
+                class="user_logo"> Plan Your Trip</a>
+            <a href="./TravelEssential.html" class="side_bar_items">Travel Essential</a>
+            <a href="./SaudiCalendar.html" class="side_bar_items">Saudi Calendar</a>
+            <a href="./Login.html" class="side_bar_items"><img src="./../Images/interface.png" alt="user_logo"
+                    class="user_logo" />Login</a><br />
+            <a href="./Register.html"><button class="btn">Get Started</button></a><br />
+        </div>
+        <div class="context">
+            <div class="form_container">
+                <br /><br /><br />
+                <img src="./../Images/people.png" alt="Add User Image" height="90px" style="margin-left: 250px;" />
+                <br /><br /><br /><br />
+                    <form>
+                       
+                        
+                        <label for="UserName"> <b>UserName :</b></label><br />
+                        <input type="text" id="UserName" placeholder="UserName..." /><br /><br />
+                        <label for="password"> <b>Password:</b></label><br />
+                        <input type="password" id="password" placeholder="**********" /><br><br />
+                       
+                      
+                        <br />
+                        <button class="btn login_btn">Login</button>&nbsp;&nbsp;
+                        <a href="./Register.html" class="center" style="font-size: large;" >Else Sign UP </a> 
+
+                        
+                      
+                    </form>
+                </div>
+          
+        </div>
+</body>
