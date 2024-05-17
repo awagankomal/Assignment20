@@ -3,9 +3,10 @@ body {
     padding: 0px;
 }
 
-.center{
+.center {
     text-align: center;
 }
+
 .container {
     min-height: 100vh;
     display: flex;
@@ -77,13 +78,42 @@ body {
 }
 
 .text_style {
-    margin:20px;
+    margin: 20px;
     text-align: justify;
 
 }
-span{
+
+span {
     color: brown;
 }
+
+/* Mobile Devices */
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+
+    .side_bar_items {
+        border-radius: 15px;
+        background-color: #f38c06;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+      
+       
+        padding: 5px 5px;
+        
+    
+    
+    }
+    .text_style {
+        margin: 20px;
+        display: none;
+    
+    }
+
+}
+
+/* Tablet Devices */
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
