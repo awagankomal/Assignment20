@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Css/common_style.css">
     <style>
+        .img_style {
+            width: "1000px";
+            height: "360px";
+            margin-left: 39px;
+        }
+
         .travel_poster {
             position: relative;
         }
@@ -19,9 +25,25 @@
             font-weight: bold;
             text-align: center;
             color: rgb(32, 32, 32);
-
         }
-      
+
+
+        /* Mobile Devices */
+
+        @media screen and (min-width: 400px) and (max-width: 768px) {}
+
+        /* Tablet Devices */
+
+        @media screen and (min-width: 769px) and (max-width: 992px) {
+
+
+            .img_style, .poster_text{
+               
+                display: none;
+                
+            }
+         
+        }
     </style>
 </head>
 
@@ -29,7 +51,7 @@
     <div class="container">
         <div class="side_bar">
             <a href="./index.html" class="side_bar_items active_page"><img src="./Images/house.png" alt="user_logo"
-                class="user_logo" />Plan Your Trip</a>
+                    class="user_logo" />Plan Your Trip</a>
             <a href="./Pages/TravelEssential.html" class="side_bar_items">Travel Essential</a>
             <a href="./Pages/SaudiCalendar.html" class="side_bar_items">Saudi Calendar</a>
             <a href="./Pages/Login.html" class="side_bar_items"><img src="./Images/interface.png" alt="user_logo"
@@ -38,15 +60,16 @@
         </div>
         <div class="context">
             <div class="travel_poster">
-                <img src="./Images/bg_image_sadua.jpeg" width="1000px" height="360px" style="margin-left: 39px;"
+                <img src="./Images/bg_image_sadua.jpeg" class="img_style"
                     aria-valuetext="Discover Your World, Plan Your Trip" />
                 <div class="poster_text">
                     <span style="font-size: 50px;">Discover A Real Value Of Travel</span><br />
                     <span style="font-size: 30px;">Plan Your Trip To Saudi</span>
                 </div>
             </div>
-            <br/>
-            <p class="text_style">Saudi Arabia, aka the Kingdom of Saudi Arabia, is situated in Western Asia. It is the second-largest Arab
+            <br />
+            <p class="text_style">Saudi Arabia, aka the Kingdom of Saudi Arabia, is situated in Western Asia. It is the
+                second-largest Arab
                 state after Algeria. The country is the epicentre of Islamic values and cultures. The country is young,
                 but it has a vibrant history.
 
@@ -57,7 +80,7 @@
                 across the globe come here. The Saudi people are famous for their generous and warm hospitality culture.
             </p>
             <br />
-            <div  class="text_style">
+            <div class="text_style">
                 <h2><span>Best Tourist Places in Saudi Arabia</span></h2>
                 From sandy shores to the snow-capped mountains, there are many famous places in Saudi Arabia. Some of
                 the best Saudi tourist places are listed below:<br />
@@ -97,7 +120,7 @@
 
                 Masjid-al-Haram- The most visited place in Saudi Arabia is Masjid-al-Haram, which is a religious site
                 situated in Mecca. The holy place is one of the biggest mosques, which can host millions of worshippers.
-                <br/><br/>
+                <br /><br />
             </div>
 
         </div>

@@ -7,29 +7,57 @@
     <link rel="stylesheet" href="./../Css/common_style.css">
 
     <style>
-.side_bar_items {
-    font-size: 15px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 5px;
-}
-        .text_format{
+        .side_bar_items {
+            font-size: 15px;
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 5px;
+        }
+
+        .text_format {
             margin-left: 30px;
         }
-        .btn{
-           margin-right: 20px;
-           border-radius: 20px;
-           padding:5px;
-           font-size: 15px;
-          
+
+        .btn {
+            margin-right: 20px;
+            border-radius: 20px;
+            padding: 5px;
+            font-size: 15px;
+
         }
-        a:hover{
-           
+
+        a:hover {
+
             box-shadow: 0px 0px 2px 3px rgb(80, 79, 79);
 
         }
 
+        /* Tablet Devices */
+
+        @media screen and (min-width: 769px) and (max-width: 992px) {
+            .head_img {
+                display: none;
+                margin-left: 39px;
+                margin-top: 20px;
+                margin-bottom: 0px;
+
+            }
+
+            .btn {
+                padding: 10px 15px;
+            }
+
+            .text_format {
+                margin-left: 0px;
+            }
+
+            .useful_contact_img {
+                margin-left: 30px;
+            }
+
+           
+        }
     </style>
 </head>
 
@@ -45,24 +73,23 @@
             <a href="./Register.html"><button class="btn">Get Started</button></a><br />
         </div>
         <div class="context">
-            <img src="./../Images/travel_esse.png" alt="nature Image" width="1000px" height="200px"
-                style="margin-left: 39px; margin-top: 20px;" />
-            <br/><br/>
-            <div class="text_format">
+            <img src="./../Images/travel_esse.png" alt="nature Image" class="head_img" />
+            <br /><br />
+            <div class="text_format head_img">
                 <h2>Get Ready</h2>
-                <br/>
-                <a><img src="./../Images/gettoknow.PNG" alt="About Sadi Img"/></a><br /><br />
+                <br />
+                <a><img src="./../Images/gettoknow.PNG" alt="About Sadi Img" /></a><br /><br />
                 <a><img src="./../Images/staysafe.png" alt="Safety Tip Img" /></a>
             </div>
 
-            <div  class="text_format">
-                <h2>All you need to know</h2>
+            <div class="text_format">
+                <h2 class="center">All you need to know</h2>
                 <a><img src="./../Images/KSA.png" alt="Commonphrases Img" /></a>
                 <a><img src="./../Images/safetytip.PNG" alt="Safety Tip Img" /></a>
-                <a><img src="./../Images/useful_contact.PNG" alt="contact Img" /></a>
+                <a><img src="./../Images/useful_contact.PNG" alt="contact Img" class="useful_contact_img " /></a>
 
             </div>
-            <br/>
+            <br />
         </div>
 </body>
 

@@ -84,3 +84,41 @@ body {
 span{
     color: brown;
 }
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .side_bar {
+
+        padding: 20px;
+    }
+
+    .side_bar_items {
+        border-radius: 20px;
+        background-color: #f38c06;
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 15px;
+        padding: 5px 5px;
+
+    }
+
+    .user_logo {
+        height: 2ppx;
+        width: 20px;
+        margin-right: 10px;
+
+    }
+
+    .btn {
+        border-radius: 15px;
+        padding: 10px 10px;
+        color: white;
+        background-color: green;
+        margin-left: 25px;
+        margin-top: 30px;
+        font-size: 17px;
+        margin-right: 20px;
+        text-align: center;
+    }
+}
